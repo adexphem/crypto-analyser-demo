@@ -1,0 +1,63 @@
+.container {
+  width: 1140px;
+  max-width: 80%;
+  margin: auto;
+}
+.waitingLoader {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  > div {
+    height: 5vh !important;
+    width: 5vw !important;
+  }
+}
+.tooltip {
+  padding: 5px;
+}
+.t-c {
+  text-align: center;
+}
+.t-l {
+  text-align: left;
+}
+.f-w {
+  width: 100%;
+}
+.p-t {
+  padding-top: 1rem;
+}
+.p-b {
+  padding-bottom: 1rem;
+}
+.fixed {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10000;
+}
+.chart-area {
+  min-width: 650px;
+  height: 400px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.primary-button {
+  background-color: $primary-button-color;
+  border-color: $primary-button-color;
+}
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.card {
+  min-height: 425px !important;
+}
+.table thead tr {
+  background: #fafafa;
+}
+.table td,
+.table th {
+  padding: 1.5rem !important;
+}
